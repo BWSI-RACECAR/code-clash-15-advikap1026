@@ -4,11 +4,12 @@ class Solution:
             #return type: list of int tuples
             
             #TODO: Write code below to return an int tuples list with the solution to the prompt.
+            intervals.sort()
             answer = []
             answer.append(intervals[0]) 
 
             count = 0 
-            for i in len(intervals):
+            for i in range (len(intervals)):
                  if i == 0: 
                       continue 
                  start_time = intervals[i][0]
