@@ -20,6 +20,7 @@ class Solution:
                  if start_time > previous_end_time: 
                       answer.append(intervals[i])
                       count = count + 1
+            print("answer: " + str(answer))
             return answer 
                       
                  
