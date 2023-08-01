@@ -17,7 +17,7 @@ class Solution:
                  end_time = intervals[i][1]
                  previous_end_time = intervals[count][1]
                  previous_start_time = intervals[count][0]
-                 if start_time > previous_end_time: 
+                 if start_time >= previous_end_time: 
                       answer.append(intervals[i])
                       count = count + 1
             print("answer: " + str(answer))
