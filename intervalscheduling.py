@@ -5,7 +5,7 @@ class Solution:
             
             #TODO: Write code below to return an int tuples list with the solution to the prompt.
             answer = []
-            answer[0] = intervals[0]
+            answer.append(intervals[0]) 
 
             count = 0 
             for i in len(intervals):
@@ -16,7 +16,7 @@ class Solution:
                  previous_end_time = intervals[count][1]
                  previous_start_time = intervals[count][0]
                  if start_time > previous_end_time: 
-                      answer[count+1] = (start_time, end_time)
+                      answer.append(start_time, end_time)
                       count = count + 1
             return answer 
                       
