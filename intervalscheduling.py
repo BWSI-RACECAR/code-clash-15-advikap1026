@@ -4,6 +4,7 @@ class Solution:
             #return type: list of int tuples
             
             #TODO: Write code below to return an int tuples list with the solution to the prompt.
+            print("intervals: " + intervals)
             intervals.sort()
             answer = []
             answer.append(intervals[0]) 
