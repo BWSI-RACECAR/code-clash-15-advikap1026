@@ -5,8 +5,8 @@ class Solution:
             
             #TODO: Write code below to return an int tuples list with the solution to the prompt.
             print("intervals: " + str(intervals))
-            #intervals.sort()
-            intervas = sorted(intervals, key = lambda x:x[1])
+            intervals.sort()
+            #intervas = sorted(intervals, key = lambda x:x[1])
             answer = []
             answer.append(intervals[0]) 
 
